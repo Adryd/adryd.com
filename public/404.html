@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+
+       /\                     _                _
+      /##\                   | |              | |
+      \###\          __ _  __| |_ __ _   _  __| |
+    ___\###\        / _` |/ _` | '__| | | |/ _` |
+   /   /\###\      | (_| | (_) | |  | |_| | (_| |
+  /   /  \###\      \__,_|\__,_|_|   \__, |\__,_|
+ /   /    \###\                      ___/ |
+/   /      \###\                    |____/
+~~~~        ~~~~
+
+Adryd
+http://www.adryd.com/
+
+Email (for robots): contact@adryd.com 
+Email (for humans): me at domain 
+
+Mastodon: @adryd@uwu.social
+
+
+-->
+    <meta charset="UTF-8" />
+    <title>404 - Where am i?</title>
+    <script>
+        (function (a, d, r, y, D) {
+            a[y] = a[y] || [];
+            a[y].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(r)[0],
+                j = d.createElement(r),
+                dl = y != 'dataLayer' ? '&l=' + y : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + D + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MF4Z62');
+    </script>
+    <style>
+        *,
+        body {
+            transition: all 0.3s;
+        }
+    </style>
+    <link rel="stylesheet" href="/assets/normalize.css">
+    <link rel="stylesheet" href="/assets/adryd-reset.css">
+    <link rel="stylesheet" href="/assets/app.css">
+    <link rel="stylesheet" href="/assets/elements/header.css">
+    <link rel="stylesheet" href="/assets/elements/hero.css">
+
+</head>
+
+<body>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MF4Z62" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <div id="app">
+        <div class="hero theme">
+            <div>
+                <header role="navigation" itemscope itemtype="http://schema.org/Person">
+                    <div class="header_inner header_regular">
+                        <!-- Needed for padding -->
+                    </div>
+                </header>
+            </div>
+            <div class="hero_inner">
+                <div>
+                    <h1 class="load_animate">Wrong address, this is
+                        <b class="load_animate_delayed">404</b>, not
+                        <b class="load_animate_delayed">200</b>.
+                    </h1>
+                    <p class="load_animate" id="blurb">I hope you find your way <a href="https://adryd.com/">home</a>
+                        safely.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>

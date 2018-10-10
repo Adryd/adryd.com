@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(/assets/webfonts/3554C8_0_0.eot);
+    src: url(/assets/webfonts/3554C8_0_0.eot?#iefix) format('embedded-opentype'), url(/assets/webfonts/3554C8_0_0.woff2) format('woff2'), url(/assets/webfonts/3554C8_0_0.woff) format('woff'), url(/assets/webfonts/3554C8_0_0.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: 700;
+    src: url(/assets/webfonts/3554C8_1_0.eot);
+    src: url(/assets/webfonts/3554C8_1_0.eot?#iefix) format('embedded-opentype'), url(/assets/webfonts/3554C8_1_0.woff2) format('woff2'), url(/assets/webfonts/3554C8_1_0.woff) format('woff'), url(/assets/webfonts/3554C8_1_0.ttf) format('truetype')
+}
+
+a,
+body {
+    font-family: Gilroy, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.load_animate {
+    animation: intro-animation 1s ease
+}
+.load_animate_delayed {
+    animation: intro-animation-delayed 1.75s ease
+}
+
+@keyframes intro-animation {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 30px, 0)
+    }
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+@keyframes intro-animation-delayed {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 30px, 0)
+    }
+    15% {
+        opacity: 0.05;
+        transform: translate3d(0, 30px, 0)
+    }
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.theme {
+    background: url(/assets/gradient.svg);
+    background-size: cover;
+    background-position: center;
+    color: #f8f8fc
+}

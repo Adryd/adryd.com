@@ -1,0 +1,135 @@
+*,
+        body {
+            transition: all 0.3s
+        }
+a,
+body {
+    font-family: Gilroy, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+a {
+    background-color: transparent;
+    color: #f8f8fc
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 56px;
+    line-height: 1.35;
+    letter-spacing: -.02em
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: Gilroy, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(webfonts/3554C8_0_0.eot);
+    src: url(webfonts/3554C8_0_0.eot?#iefix) format('embedded-opentype'), url(webfonts/3554C8_0_0.woff2) format('woff2'), url(webfonts/3554C8_0_0.woff) format('woff'), url(webfonts/3554C8_0_0.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: 700;
+    src: url(webfonts/3554C8_1_0.eot);
+    src: url(webfonts/3554C8_1_0.eot?#iefix) format('embedded-opentype'), url(webfonts/3554C8_1_0.woff2) format('woff2'), url(webfonts/3554C8_1_0.woff) format('woff'), url(webfonts/3554C8_1_0.ttf) format('truetype')
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 48px
+}
+
+h3 {
+    font-size: 34px;
+    line-height: 40px
+}
+
+h4 {
+    font-size: 24px;
+    -moz-osx-font-smoothing: grayscale
+}
+
+h4,
+h5 {
+    font-family: Gilroy, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+h5 {
+    font-size: 20px;
+    letter-spacing: .02em
+}
+
+h6 {
+    font-size: 16px;
+    letter-spacing: .04em
+}
+
+h6,
+p {
+    font-family: Gilroy, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px
+}
+
+a,
+p a {
+    text-decoration: none
+}
+
+p a {
+    font-weight: 700;
+    color: inherit
+}
+
+.font_monospace,
+h1,
+h2,
+header {
+    font-weight: 400
+}
+
+b,
+p a {
+    font-family: Gilroy
+}
+
+.font_monospace {
+    font-family: monospace
+}

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/adryd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adryd.com
+  * I am adryd (https://keybase.io/adryd) on keybase.
+  * I have a public key ASAs8szZmapETttjstoA9mgmQlTYtEmZ9V_6kV3WhpBsAAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e9f6976c9ba74af2f7b8629fee8244af4bd74ca182321b005f491b8503bf4a9b0a",
+      "host": "keybase.io",
+      "kid": "01202cf2ccd999aa444edb63b2da00f668264254d8b44999f55ffa915dd686906c000a",
+      "uid": "0ddb54c8b9e42c1d07178ac4cebf3819",
+      "username": "adryd"
+    },
+    "merkle_root": {
+      "ctime": 1534865292,
+      "hash": "7a518f71da4fe5c4e8bc2c4b7635f0dabe2410c73ad41a5c1b7afe29e9470c44f813bc89a9131d4680c6d44bfba17f586967e67984c49a1338b3f6911d6d8b66",
+      "hash_meta": "cc20b5ce532c6b7ea7b65c15f5a7ea3619462bd7e1b294c4d3c19ed028eb964a",
+      "seqno": 3493465
+    },
+    "service": {
+      "entropy": "/1Ux11IKPzcZZX2ftCK5yUhJ",
+      "hostname": "adryd.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1534865313,
+  "expire_in": 504576000,
+  "prev": "50660d955ecf38122e91ae48b36ff234e64c0761f906901c0f4e2ce26995335b",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLPLM2ZmqRE7bY7LaAPZoJkJU2LRJmfVf+pFd1oaQbAAKp3BheWxvYWTESpcCLsQgUGYNlV7POBIuka5Is2/yNOZMB2H5BpAcD04s4mmVM1vEIMmfu4iiX8BX+5zUbYUbHSxYnZ014a07HQm2jiRbKVTPAgHCo3NpZ8RAfhEz9RgFs+m/dI+8IyhktmwyXGUxpEd9w9+eG1dywFAvSIwBgIYUixdJ3/dpuGTF55YC5OLTLrtnbHVeP6mQBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOX53Cywje4ImDNJI6TPRPPbC+3EAGK1SrF8SiEoZkAqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adryd
+
+==================================================================
